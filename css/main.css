@@ -2,6 +2,25 @@ ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    position:absolute;
-    text-align:center;
+
+}
+li{
+    margin:5px;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 40.063em) {
+    li {
+        float: left;
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    li {
+        width: 28%;
+    }
 }
