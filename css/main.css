@@ -1,1 +1,7 @@
-/* write your css here */
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position:absolute;
+    text-align:center;
+}
